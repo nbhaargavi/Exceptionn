@@ -17,7 +17,7 @@ public class Pointexceptio implements Cloneable {
     {
         try
         {
-            return(pointexceptio)super.clone();
+            return(Pointexceptio)super.clone();
         }
         catch(CloneNotSupportedException e)
         {
