@@ -1,7 +1,7 @@
 package org.example;
 import java.util.Scanner;
 import java.util.logging.Logger;
-public class Creditexceptio implements Cloneable {
+public class Creditexceptio implements cloneable {
     Logger l=Logger.getLogger("kitty");
     private String cname;
     private Integer cno;
