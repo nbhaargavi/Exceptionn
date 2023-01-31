@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-public class dbexceptio
+public class Dbexceptio
 {
     public static void main(String[] args)
     {
