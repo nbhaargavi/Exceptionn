@@ -1,7 +1,7 @@
 package org.example;
 import java.util.Scanner;
 import java.util.logging.*;
-public class Pointexceptio implements Cloneable {
+public class Pointexceptio implements cloneable {
     Logger l=Logger.getLogger("kitty");
     private Integer x;
     private Integer y;
