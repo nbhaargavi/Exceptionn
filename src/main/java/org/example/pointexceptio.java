@@ -1,11 +1,11 @@
 package org.example;
 import java.util.Scanner;
 import java.util.logging.*;
-public class pointexceptio implements Cloneable {
+public class Pointexceptio implements Cloneable {
     Logger l=Logger.getLogger("kitty");
     private Integer x;
     private Integer y;
-    public pointexceptio( Integer x, Integer y) {
+    public Pointexceptio( Integer x, Integer y) {
         this.x = x;
         this.y = y;
     }
@@ -13,7 +13,7 @@ public class pointexceptio implements Cloneable {
     {
         return x.equals(y);
     }
-    pointexceptio pt()
+    Pointexceptio pt()
     {
         try
         {
@@ -32,8 +32,8 @@ public class pointexceptio implements Cloneable {
         Integer x = sc.nextInt();
         l.info("enter the y coordinate:");
         Integer y = sc.nextInt();
-        pointexceptio p1=new pointexceptio(x,y);
-        pointexceptio p2=(pointexceptio)p1.clone();
+        Pointexceptio p1=new Pointexceptio(x,y);
+        Pointexceptio p2=(Pointexceptio)p1.clone();
         p2.eq();
         if (p2.eq())
         {
